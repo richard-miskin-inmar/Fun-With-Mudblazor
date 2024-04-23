@@ -5,9 +5,9 @@ VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fun-With-Mudblazor", "Fun-With-Mudblazor\Fun-With-Mudblazor.csproj", "{608C2C75-A43B-45DC-8CFC-B96F657E9D04}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor-Mud", "MudBlazorWebApp1\Blazor-Mud.csproj", "{92C8961F-E1A2-4DF7-B8DF-21D9AB1854E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor-Vanilla", "Blazor-Vanilla\Blazor-Vanilla.csproj", "{B8699D7E-3D2C-4B88-BB70-10E8A316CAB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor-Vanilla", "Blazor-Vanilla\Blazor-Vanilla.csproj", "{B8699D7E-3D2C-4B88-BB70-10E8A316CAB5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor-Mud", "Blazor-Mud\Blazor-Mud.csproj", "{EE91671E-72C4-4E7F-84A8-5E113B3D34BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +19,14 @@ Global
 		{608C2C75-A43B-45DC-8CFC-B96F657E9D04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{608C2C75-A43B-45DC-8CFC-B96F657E9D04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{608C2C75-A43B-45DC-8CFC-B96F657E9D04}.Release|Any CPU.Build.0 = Release|Any CPU
-		{92C8961F-E1A2-4DF7-B8DF-21D9AB1854E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{92C8961F-E1A2-4DF7-B8DF-21D9AB1854E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{92C8961F-E1A2-4DF7-B8DF-21D9AB1854E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{92C8961F-E1A2-4DF7-B8DF-21D9AB1854E8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B8699D7E-3D2C-4B88-BB70-10E8A316CAB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B8699D7E-3D2C-4B88-BB70-10E8A316CAB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8699D7E-3D2C-4B88-BB70-10E8A316CAB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8699D7E-3D2C-4B88-BB70-10E8A316CAB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE91671E-72C4-4E7F-84A8-5E113B3D34BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE91671E-72C4-4E7F-84A8-5E113B3D34BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE91671E-72C4-4E7F-84A8-5E113B3D34BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE91671E-72C4-4E7F-84A8-5E113B3D34BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
