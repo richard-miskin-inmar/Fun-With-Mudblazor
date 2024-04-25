@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fun-With-Mudblazor-old", "F
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor-Vanilla", "Blazor-Vanilla\Blazor-Vanilla.csproj", "{B8699D7E-3D2C-4B88-BB70-10E8A316CAB5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor-Mud-old", "Blazor-Mud-old\Blazor-Mud-old.csproj", "{EE91671E-72C4-4E7F-84A8-5E113B3D34BB}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor-Mud", "Blazor-Mud\Blazor-Mud.csproj", "{53DFB2F1-B268-4C03-BB2C-B64BFF8D2E85}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor-Mud-Shared", "Blazor-Mud-Shared\Blazor-Mud-Shared.csproj", "{D7D29003-23A4-44C6-99FD-FA4C9C5788CC}"
@@ -31,10 +29,6 @@ Global
 		{B8699D7E-3D2C-4B88-BB70-10E8A316CAB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8699D7E-3D2C-4B88-BB70-10E8A316CAB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8699D7E-3D2C-4B88-BB70-10E8A316CAB5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EE91671E-72C4-4E7F-84A8-5E113B3D34BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EE91671E-72C4-4E7F-84A8-5E113B3D34BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EE91671E-72C4-4E7F-84A8-5E113B3D34BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EE91671E-72C4-4E7F-84A8-5E113B3D34BB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{53DFB2F1-B268-4C03-BB2C-B64BFF8D2E85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{53DFB2F1-B268-4C03-BB2C-B64BFF8D2E85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{53DFB2F1-B268-4C03-BB2C-B64BFF8D2E85}.Release|Any CPU.ActiveCfg = Release|Any CPU
