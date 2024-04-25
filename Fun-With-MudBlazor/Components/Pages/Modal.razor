@@ -1,0 +1,22 @@
+﻿@page "/modal"
+@using Blazor_Mud_Shared
+@rendermode InteractiveServer
+@inject IDialogService DialogService
+
+
+<MudPopoverProvider />
+<MudDialogProvider />
+<MudSnackbarProvider />
+
+<MudButton @onclick="((e) => OpenDialog())" Variant="Variant.Filled" Color="Color.Primary">
+    Open Simple Dialog
+</MudButton>
+
+@code {
+
+    private void OpenDialog()
+    {
+        var options = new DialogOptions { CloseOnEscapeKey = true };
+        DialogService.Show<ModalComponent>("Simple Dialog", options);
+    }
+}

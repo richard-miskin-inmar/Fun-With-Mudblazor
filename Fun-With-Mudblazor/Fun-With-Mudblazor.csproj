@@ -4,12 +4,18 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
-    <RootNamespace>Fun-With-Mudblazor</RootNamespace>
+    <RootNamespace>Fun_With_MudBlazor</RootNamespace>
     <AssemblyName>$(AssemblyName.Replace(' ', '_'))</AssemblyName>
   </PropertyGroup>
 
+  
   <ItemGroup>
-    <PackageReference Include="MudBlazor" Version="6.19.1" />
+    <PackageReference Include="MudBlazor" Version="6.*" />
   </ItemGroup>
 
+  
+  <ItemGroup>
+    <ProjectReference Include="..\Blazor-Mud-Shared\Blazor-Mud-Shared.csproj" />
+  </ItemGroup>
+  
 </Project>
