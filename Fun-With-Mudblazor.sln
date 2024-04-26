@@ -9,11 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor-Vanilla", "Blazor-Va
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor-Mud", "Blazor-Mud\Blazor-Mud.csproj", "{53DFB2F1-B268-4C03-BB2C-B64BFF8D2E85}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor-Mud-Shared", "Blazor-Mud-Shared\Blazor-Mud-Shared.csproj", "{D7D29003-23A4-44C6-99FD-FA4C9C5788CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fun-With-MudBlazor-Shared", "Fun-With-MudBlazor-Shared\Fun-With-MudBlazor-Shared.csproj", "{D7D29003-23A4-44C6-99FD-FA4C9C5788CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fun-With-MudBlazor", "Fun-With-MudBlazor\Fun-With-MudBlazor.csproj", "{DCC64FC1-FB78-44B9-9357-07BB7447F49A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fun-With-MudBlazor", "Fun-With-MudBlazor\Fun-With-MudBlazor.csproj", "{DCC64FC1-FB78-44B9-9357-07BB7447F49A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fun-With-MudBlazor-Global", "Fun-With-MudBlazor-Global\Fun-With-MudBlazor-Global.csproj", "{4609E166-9292-411D-953F-236DCDDD71FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fun-With-MudBlazor-Global", "Fun-With-MudBlazor-Global\Fun-With-MudBlazor-Global.csproj", "{4609E166-9292-411D-953F-236DCDDD71FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

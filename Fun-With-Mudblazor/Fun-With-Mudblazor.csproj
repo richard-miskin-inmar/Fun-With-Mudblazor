@@ -15,7 +15,7 @@
 
   
   <ItemGroup>
-    <ProjectReference Include="..\Blazor-Mud-Shared\Blazor-Mud-Shared.csproj" />
+    <ProjectReference Include="..\Fun-With-MudBlazor-Shared\Fun-With-MudBlazor-Shared.csproj" />
   </ItemGroup>
   
 </Project>
