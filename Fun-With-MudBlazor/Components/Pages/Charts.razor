@@ -1,0 +1,20 @@
+﻿@page "/charts"
+@using Blazor_Mud_Shared
+@rendermode InteractiveServer
+
+<MudText Typo="Typo.h1" GutterBottom="true">Charts</MudText>
+
+<MudText Typo="Typo.h3">Sweet Graphs!</MudText>
+<MudText Typo="Typo.h5" Class="pa-4">Donut Charts</MudText>
+<DonutChartComponent />
+<MudText Typo="Typo.h5" Class="pa-4 mt-6">Pie Charts</MudText>
+<PieChartComponent />
+
+<MudText Typo="Typo.h3" Class="pa-4 mt-6">Bar Charts</MudText>
+<MudText Typo="Typo.h5" Class="pa-4">Classic Bar Charts</MudText>
+<BarChartComponent />
+<MudText Typo="Typo.h5" Class="pa-4 mt-6">Stacked Bar Charts</MudText>
+<StackedBarChartComponent />
+
+<MudText Typo="Typo.h3" Class="pa-4 mt-6">Line Charts</MudText>
+<LineChartComponent />
