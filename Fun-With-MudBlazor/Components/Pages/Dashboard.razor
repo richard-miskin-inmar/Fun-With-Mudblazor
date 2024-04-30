@@ -5,42 +5,45 @@
 
 <MudPopoverProvider />
 <MudSnackbarProvider />
-<MudDialogProvider  
-    CloseOnEscapeKey="true"/>
+<MudDialogProvider />
+    @* CloseOnEscapeKey="true" *@
 
-<h3>Dashboard</h3>
+
+<PageTitle>Dashboard</PageTitle>
+<MudText Typo="Typo.h2" GutterBottom="true">Dashboard</MudText>
 
 <MudContainer Class="mt-16 px-8" MaxWidth="MaxWidth.False">
     <MudGrid>
         <MudItem xs="12" sm="6" md="4">
             <MudPaper Elevation="2" Class="pa-4" Style="height: 200px;">
+                <MudText Style="padding:1em">Sample Component</MudText>
                 <SampleComponent />
             </MudPaper>
         </MudItem>
         <MudItem xs="12" sm="6" md="4">
             <MudPaper Elevation="2" Class="pa-4" Style="height: 200px;">
                 <MudText Style="padding:1em">Button Types</MudText>
-                <MudButton Variant="Variant.Filled">Default</MudButton>
+                @* <MudButton Variant="Variant.Filled">Default</MudButton>
                 <MudButton Variant="Variant.Filled" Color="Color.Primary">Primary</MudButton>
                 <MudButton Variant="Variant.Filled" Color="Color.Secondary">Secondary</MudButton>
-                <MudButton Variant="Variant.Filled" Disabled="true">Disabled</MudButton>
+                <MudButton Variant="Variant.Filled" Disabled="true">Disabled</MudButton> *@
             </MudPaper>
         </MudItem>
         <MudItem xs="12" sm="12" md="4">
-            <MudPaper Elevation="2" Class="pa-4">
-            </MudPaper>
+            <MudPaper Elevation="2" Class="pa-4"></MudPaper>
         </MudItem>
 
         <MudItem xs="12" sm="6">
             <MudGrid>
                 <MudItem xs="12">
                     <MudPaper Elevation="2" Class="pa-4" Style="height: 200px;">
-                        <MudButton Class="d-block ma-1" OnClick="@((e) => OpenDialog(maxWidth))" Variant="Variant.Filled">Open MaxWidth Dialog</MudButton>
+                        <MudText Style="padding:1em">Modals / Dialog Boxes</MudText>
+                        @* <MudButton Class="d-block ma-1" OnClick="@((e) => OpenDialog(maxWidth))" Variant="Variant.Filled">Open MaxWidth Dialog</MudButton>
                         <MudButton OnClick="@((e) => OpenDialog(closeButton))" Variant="Variant.Filled" Color="Color.Primary">Close Button Dialog</MudButton>
                         <MudButton OnClick="@((e) => OpenDialog(noHeader))" Variant="Variant.Filled" Color="Color.Secondary">No header Dialog</MudButton>
                         <MudButton OnClick="@((e) => OpenDialog(disableBackdropClick))" Variant="Variant.Filled" Color="Color.Tertiary">Disable backdrop dialog</MudButton>
                         <MudButton OnClick="@((e) => OpenDialog(fullScreen))" Variant="Variant.Filled" Color="Color.Info">Full Screen Dialog</MudButton>
-                        <MudButton OnClick="@((e) => OpenDialog(topCenter))" Variant="Variant.Filled" Color="Color.Success">Top Center Dialog</MudButton>
+                        <MudButton OnClick="@((e) => OpenDialog(topCenter))" Variant="Variant.Filled" Color="Color.Success">Top Center Dialog</MudButton> *@
 
                     </MudPaper>
                 </MudItem>
@@ -52,7 +55,8 @@
         </MudItem>
         <MudItem xs="12" sm="6">
             <MudPaper Elevation="2" Class="pa-4" Style="height: 100%">
-                <MudPaper Class="pa-4" Style="@($"color:{Theme.Palette.Dark}; background:{Theme.Palette.Warning};")">
+
+                @* <MudPaper Class="pa-4" Style="@($"color:{Theme.Palette.Dark}; background:{Theme.Palette.Warning};")">
                     Warning with Dark text
                 </MudPaper>
                 <MudPaper Class="pa-4" Style="@($"color:{Theme.Palette.SuccessLighten}; background:{Theme.Palette.Dark};")">
@@ -63,7 +67,7 @@
                 </MudPaper>
                 <MudPaper Class="pa-4" Style="@($"color:{Colors.LightGreen.Accent3}; background:{Colors.BlueGrey.Darken4};")">
                     Colors.BlueGrey.Darken4 Colors.LightGreen.Accent3
-                </MudPaper>
+                </MudPaper> *@
             </MudPaper>
         </MudItem>
 
