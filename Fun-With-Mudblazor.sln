@@ -5,8 +5,6 @@ VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor-Vanilla", "Blazor-Vanilla\Blazor-Vanilla.csproj", "{B8699D7E-3D2C-4B88-BB70-10E8A316CAB5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor-Mud", "Blazor-Mud\Blazor-Mud.csproj", "{53DFB2F1-B268-4C03-BB2C-B64BFF8D2E85}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fun-With-MudBlazor-Shared", "Fun-With-MudBlazor-Shared\Fun-With-MudBlazor-Shared.csproj", "{D7D29003-23A4-44C6-99FD-FA4C9C5788CC}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fun-With-MudBlazor", "Fun-With-MudBlazor\Fun-With-MudBlazor.csproj", "{DCC64FC1-FB78-44B9-9357-07BB7447F49A}"
@@ -21,10 +19,6 @@ Global
 		{B8699D7E-3D2C-4B88-BB70-10E8A316CAB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8699D7E-3D2C-4B88-BB70-10E8A316CAB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8699D7E-3D2C-4B88-BB70-10E8A316CAB5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{53DFB2F1-B268-4C03-BB2C-B64BFF8D2E85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{53DFB2F1-B268-4C03-BB2C-B64BFF8D2E85}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{53DFB2F1-B268-4C03-BB2C-B64BFF8D2E85}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{53DFB2F1-B268-4C03-BB2C-B64BFF8D2E85}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D7D29003-23A4-44C6-99FD-FA4C9C5788CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D7D29003-23A4-44C6-99FD-FA4C9C5788CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7D29003-23A4-44C6-99FD-FA4C9C5788CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
