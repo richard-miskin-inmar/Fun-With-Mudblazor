@@ -6,7 +6,7 @@
 <MudPopoverProvider />
 <MudSnackbarProvider />
 <MudDialogProvider />
-    @* CloseOnEscapeKey="true" *@
+    @* CloseOnEscapeKey="true" /> *@
 
 
 <PageTitle>Dashboard</PageTitle>
@@ -36,19 +36,26 @@
         <MudItem xs="12" sm="6">
             <MudGrid>
                 <MudItem xs="12">
-                    <MudPaper Elevation="2" Class="pa-4" Style="height: 200px;">
-                        <MudText Style="padding:1em">Modals / Dialog Boxes</MudText>
-                        @* <MudButton Class="d-block ma-1" OnClick="@((e) => OpenDialog(maxWidth))" Variant="Variant.Filled">Open MaxWidth Dialog</MudButton>
-                        <MudButton OnClick="@((e) => OpenDialog(closeButton))" Variant="Variant.Filled" Color="Color.Primary">Close Button Dialog</MudButton>
-                        <MudButton OnClick="@((e) => OpenDialog(noHeader))" Variant="Variant.Filled" Color="Color.Secondary">No header Dialog</MudButton>
-                        <MudButton OnClick="@((e) => OpenDialog(disableBackdropClick))" Variant="Variant.Filled" Color="Color.Tertiary">Disable backdrop dialog</MudButton>
-                        <MudButton OnClick="@((e) => OpenDialog(fullScreen))" Variant="Variant.Filled" Color="Color.Info">Full Screen Dialog</MudButton>
-                        <MudButton OnClick="@((e) => OpenDialog(topCenter))" Variant="Variant.Filled" Color="Color.Success">Top Center Dialog</MudButton> *@
+                    <MudPaper Elevation="2" Class="pa-4" Style="height: 300px;">
+
+                        <MudText Style="padding:1em">Colors!</MudText>
+                        @* <MudPaper Class="pa-4" Style="@($"color:{Theme.Palette.Dark}; background:{Theme.Palette.Warning};")">
+                            Warning with Dark text
+                        </MudPaper>
+                        <MudPaper Class="pa-4" Style="@($"color:{Theme.Palette.SuccessLighten}; background:{Theme.Palette.Dark};")">
+                            Dark with Success lighten
+                        </MudPaper>
+                        <MudPaper Class="pa-4" Style="@($"color:{Colors.DeepPurple.Lighten5} background:{Colors.DeepPurple.Default};")">
+                            Colors.Purple.Accent3
+                        </MudPaper>
+                        <MudPaper Class="pa-4" Style="@($"color:{Colors.LightGreen.Accent3}; background:{Colors.BlueGrey.Darken4};")">
+                            Colors.BlueGrey.Darken4 Colors.LightGreen.Accent3
+                        </MudPaper> *@
 
                     </MudPaper>
                 </MudItem>
                 <MudItem xs="12">
-                    <MudPaper Elevation="2" Class="pa-4" Style="height: 200px;">
+                    <MudPaper Elevation="2" Class="pa-4" Style="height: 100px;">
                     </MudPaper>
                 </MudItem>
             </MudGrid>
@@ -56,18 +63,14 @@
         <MudItem xs="12" sm="6">
             <MudPaper Elevation="2" Class="pa-4" Style="height: 100%">
 
-                @* <MudPaper Class="pa-4" Style="@($"color:{Theme.Palette.Dark}; background:{Theme.Palette.Warning};")">
-                    Warning with Dark text
-                </MudPaper>
-                <MudPaper Class="pa-4" Style="@($"color:{Theme.Palette.SuccessLighten}; background:{Theme.Palette.Dark};")">
-                    Dark with Success lighten
-                </MudPaper>
-                <MudPaper Class="pa-4" Style="@($"color:{Colors.DeepPurple.Lighten5} background:{Colors.Purple.Accent3};")">
-                    Colors.Purple.Accent3
-                </MudPaper>
-                <MudPaper Class="pa-4" Style="@($"color:{Colors.LightGreen.Accent3}; background:{Colors.BlueGrey.Darken4};")">
-                    Colors.BlueGrey.Darken4 Colors.LightGreen.Accent3
-                </MudPaper> *@
+                @* <MudText Style="padding:1em">Modals / Dialog Boxes</MudText>
+                <MudButton Class="d-block ma-1" OnClick="@((e) => OpenDialog(maxWidth))" Variant="Variant.Filled">Open MaxWidth Dialog</MudButton>
+                <MudButton Class="d-block ma-1" OnClick="@((e) => OpenDialog(closeButton))" Variant="Variant.Filled" Color="Color.Primary">Close Button Dialog</MudButton>
+                <MudButton Class="d-block" OnClick="@((e) => OpenDialog(noHeader))" Variant="Variant.Filled" Color="Color.Secondary">No header Dialog</MudButton>
+                <MudButton OnClick="@((e) => OpenDialog(disableBackdropClick))" Variant="Variant.Filled" Color="Color.Tertiary">Disable backdrop dialog</MudButton>
+                <MudButton OnClick="@((e) => OpenDialog(fullScreen))" Variant="Variant.Filled" Color="Color.Info">Full Screen Dialog</MudButton>
+                <MudButton Class="d-block" OnClick="@((e) => OpenDialog(topCenter))" Variant="Variant.Filled" Color="Color.Success">Top Center Dialog</MudButton> *@
+                                
             </MudPaper>
         </MudItem>
 
